@@ -11,8 +11,6 @@ public:
             reversedHalf = reversedHalf * 10 + digit;
             x = x / 10;
         }
-
-        
         return (x == reversedHalf || x == reversedHalf / 10);
     }
 };
