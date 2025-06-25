@@ -25,7 +25,7 @@ public:
         while (j < nums2.size()) {
             merged.push_back(nums2[j]);
             j++;
-        }
+        } 
 
         int n = merged.size();
     
