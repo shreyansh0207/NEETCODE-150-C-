@@ -24,8 +24,6 @@ public:
            topIndexes.push_back(valueIndex[i].second); 
         }
 
-
-        
         for(int i=0;i<k-1;i++){
             for(int j=i+1;j<k;j++){
                 if(topIndexes[i] > topIndexes[j]){
