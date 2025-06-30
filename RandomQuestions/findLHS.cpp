@@ -6,6 +6,8 @@ public:
         for(i=0;i<nums.size();i++){
             freq[nums[i]]++;
         }
+
+        
         int maxLength = 0;
         for (auto it : freq) {
             int num = it.first;
