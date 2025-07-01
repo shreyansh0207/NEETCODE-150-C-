@@ -3,6 +3,8 @@ public:
     int threeSumClosest(vector<int>& nums, int target) {
         int n = nums.size(); int closeSum = 100000;
         int k;int i,j;
+
+        
         sort(begin(nums) , end(nums));
         for(k=0;k<=n-3;k++){
             i = k+1;
