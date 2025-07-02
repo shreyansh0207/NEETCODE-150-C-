@@ -14,7 +14,6 @@ public:
                 num -= values[i];     
             }
         }
-
         return result;
     }
 };
