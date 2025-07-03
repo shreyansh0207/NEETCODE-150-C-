@@ -6,7 +6,6 @@ public:
 
         string result = "";
 
-        
         for (int i = 0; i < 13; i++) {
            
             while (num >= values[i]) {
