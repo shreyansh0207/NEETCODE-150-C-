@@ -12,7 +12,6 @@ public:
             minHeap.pop();
         }
     }
-
     vector<int>result;
     while(!minHeap.empty()){
         result.push_back(minHeap.top().second);
