@@ -1,5 +1,8 @@
 class Solution {
 public:
+//esme we see the concept of the min heap : means (largest , top , greatest) aata and in max heap (smallest , top , least) aata hai
+//esme we see the concept of the min heap : means (largest , top , greatest) :: Simple hota hai 
+//https://youtu.be/7VoJn544QrM?feature=shared
     vector<int> topKFrequent(vector<int>& nums, int k) {
     unordered_map<int, int> freqMap;
     for (int num : nums) {
