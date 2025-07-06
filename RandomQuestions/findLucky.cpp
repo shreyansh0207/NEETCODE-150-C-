@@ -15,7 +15,6 @@ public:
                 maxLucky = max(maxLucky, arr[i]);
             }
         }
-
-        return maxLucky;
+         return maxLucky;
     }
 };
