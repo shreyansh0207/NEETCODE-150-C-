@@ -5,7 +5,9 @@ public:
         int m = num2.size();
         vector<int> result(n + m, 0); 
 
-        
+
+
+
         for (int i = n - 1; i >= 0; i--) {
             for (int j = m - 1; j >= 0; j--) {
                 int mul = (num1[i] - '0') * (num2[j] - '0');
