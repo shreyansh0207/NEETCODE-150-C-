@@ -31,7 +31,8 @@ class Stack {
         } else {
             cout<< "Popped element: " << arr[top] << endl;
             top--;
-        }
+        } 
+    }
     int peek(){
         if(top == -1){
             cout<<"Stack is empty"<<endl;
@@ -42,13 +43,13 @@ class Stack {
         }
     bool isEmpty(){
         if(top == -1){
-            return true;
+            return true; }
             else {
                 return false;
             }
         }
-    }    
-    };       
+    };   
+          
        
 
     int main(){
